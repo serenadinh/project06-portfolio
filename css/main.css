@@ -6,25 +6,37 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 }
-.entire-nav {
-	padding: 20px 0px 20px 0px;
-}
 #nav-logo {
 	font-family: 'Playfair Display', serif;
 	font-style: normal;
 	font-size: 45px;
 	text-transform: uppercase;
+	padding-left: 150px;
+}
+#navbarNav {
+	padding-right: 150px;
+}
+.nav-tabs, .nav-tabs .active, .nav-tabs * {
+	text-decoration: none;
+	border: none;
+	color: #333;
+	font-family: 'Playfair Display', serif;
+	font-size: 15px;
+}
+.nav-tabs *:hover {
+	border:none;
 }
 section {
 	text-align: center;
-	padding: 20px 0px 20px 0px;
 }
 img {
-	width: 500px;
-	height: 347.39px;
 	text-decoration: none;
 	border: none;
 }
-.work-top, .work-middle, .work-bottom {
-	padding: 20px;
+#work img {
+	padding: 10px;
+}
+#work .col {
+	padding: 0px;
+	margin: 0px;
 }
