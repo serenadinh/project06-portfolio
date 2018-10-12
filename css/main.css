@@ -2,10 +2,18 @@
 	padding: 0;
 	margin: 0;
 }
-.nav-bar {
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+}
+.entire-nav {
 	padding: 20px 0px 20px 0px;
-	text-decoration: none;
-	background: #fff; 
+}
+#nav-logo {
+	font-family: 'Playfair Display', serif;
+	font-style: normal;
+	font-size: 45px;
+	text-transform: uppercase;
 }
 section {
 	text-align: center;
@@ -15,6 +23,7 @@ img {
 	width: 500px;
 	height: 347.39px;
 	text-decoration: none;
+	border: none;
 }
 .work-top, .work-middle, .work-bottom {
 	padding: 20px;
