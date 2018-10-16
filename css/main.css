@@ -25,16 +25,7 @@ body {
 }
 .nav-tabs *:hover {
 	border:none;
-}
-section {
-	text-align: center;
-}
-#text-about h3 {
-	font-family: 'Playfair Display', serif
-	font-size: 20px;
-}
-#text-about p {
-	font-size: 10px;
+	color: #FFBC42;
 }
 img {
 	text-decoration: none;
@@ -49,6 +40,9 @@ img {
 }
 #about-me .col {
 	text-align: center;
+}
+#journal img {
+	margin: 15px;
 }
 #footer {
     padding: 20px 0;
@@ -89,6 +83,7 @@ img {
     -webkit-transition: all ease-in-out 0.3s;
     transition: all ease-in-out 0.3s;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .social-icons-footer li a:hover {
@@ -97,4 +92,8 @@ img {
 
 .social-icons-footer li a i {
     font-size: 20px;
+}
+.social-icons-footer p {
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
 }
