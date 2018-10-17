@@ -6,6 +6,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 }
+/* Navbar */
 #nav-logo {
 	font-family: 'Playfair Display', serif;
 	font-style: normal;
@@ -27,23 +28,40 @@ body {
 	border:none;
 	color: #FFBC42;
 }
+/* Work */
 img {
 	text-decoration: none;
 	border: none;
 }
 #work img {
 	padding: 10px;
+	transition: linear .3s all;
+}
+#work img:hover {
+	opacity: 0; 
 }
 #work .col {
 	padding: 0px;
 	margin: 0px;
+	position: relative;
 }
+#work .col .img-text {
+	position: absolute;
+	text-align: center;
+	z-index: -1;
+	top: 45%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+/* About */
 #about-me .col {
 	text-align: center;
 }
+/* Journal */
 #journal img {
 	margin: 15px;
 }
+/* Footer */
 #footer {
     padding: 20px 0;
 }
@@ -83,7 +101,6 @@ img {
     -webkit-transition: all ease-in-out 0.3s;
     transition: all ease-in-out 0.3s;
     margin-bottom: 0;
-    text-align: center;
 }
 
 .social-icons-footer li a:hover {
