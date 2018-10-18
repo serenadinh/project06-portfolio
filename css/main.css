@@ -57,6 +57,12 @@ img {
 #about-me .col {
 	text-align: center;
 }
+#text-about * {
+	text-align: center;
+	display: block;
+	padding: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
 /* Journal */
 #journal img {
 	margin: 15px;
